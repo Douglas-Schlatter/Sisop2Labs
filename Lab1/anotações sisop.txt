@@ -1,0 +1,22 @@
+Primeiro ex n ta rodando em windows 
+
+gcc -pthread <codigo.c> -o <programa_saida>
+roda o processo acho que so 
+
+ps -all -> mostra os processos ativos no sistema
+
+kill -9 <PID> -> mata um processo
+
+
+----Java ---
+
+javac <nome>.java
+java <java>
+
+
+---pthread------
+
+gcc -pthread exemplo_2.c -o ex2
+./ex2
+--------anotações --------
+se processo ficar orfão, este processo pega um novo pai

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Users\\T-Gamer\\Desktop\\Faculdade\\Ufrgs_10_sem\\Sisop 2\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users\\T-Gamer\\Desktop\\Faculdade\\Ufrgs_10_sem\\Sisop 2\\Lab1\\exemplo_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exemplo_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users\\T-Gamer\\Desktop\\Faculdade\\Ufrgs_10_sem\\Sisop 2\\Lab1\\exemplo_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exemplo_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "exemplo_2.c",
+              "DocumentMoniker": "E:\\Users\\T-Gamer\\Desktop\\Faculdade\\Ufrgs_10_sem\\Sisop 2\\Lab1\\exemplo_2.c",
+              "RelativeDocumentMoniker": "exemplo_2.c",
+              "ToolTip": "E:\\Users\\T-Gamer\\Desktop\\Faculdade\\Ufrgs_10_sem\\Sisop 2\\Lab1\\exemplo_2.c",
+              "RelativeToolTip": "exemplo_2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-09T23:42:34.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "exemplo_1.c",
+              "DocumentMoniker": "E:\\Users\\T-Gamer\\Desktop\\Faculdade\\Ufrgs_10_sem\\Sisop 2\\Lab1\\exemplo_1.c",
+              "RelativeDocumentMoniker": "exemplo_1.c",
+              "ToolTip": "E:\\Users\\T-Gamer\\Desktop\\Faculdade\\Ufrgs_10_sem\\Sisop 2\\Lab1\\exemplo_1.c",
+              "RelativeToolTip": "exemplo_1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-09T23:42:33.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
