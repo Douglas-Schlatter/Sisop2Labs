@@ -1,7 +1,7 @@
 /** Codigos feitos pro Douglas e Jorge
  * 
  * Comando para compilar e executar
- * gcc -pthread exercicio_1.c -o ex1
+ * gcc -pthread exercicio_2.c -o ex1
  *./ex1
  * 
 */
@@ -9,6 +9,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+
+
+#define N 1000000
 
 void *thread_routine(void *arg){
     int n = *(int*)arg;
@@ -21,7 +24,7 @@ int main(int argc, char *argv[]){
     printf("Numero de threads a ser iniciada %i \n", T);
     pthread_t thr[T];
     int status = 0;
-    int id[T];
+    int id[N];
 
     for(int i = 0; i < T; i++){
         id[i] = 10 + i;
