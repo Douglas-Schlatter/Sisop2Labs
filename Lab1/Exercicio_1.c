@@ -1,20 +1,35 @@
+/** 
+ * Comando para compilar e executar
+ * gcc -pthread exemplo_1.c -o ex1
+ *./ex1
+ * 
+*/
+
 #include <stdio.h>
+#include <stdlib.h>
 #include <pthread.h>
 
-void *thread_rountine(void *arg)
-{
+void *thread_routine(void *arg){
     int n = *(int*)arg;
-    printf("");
+    printf("Oi! Eu sou a thread %d \n", n);
+
 }
 
-
-int main( int argc, char **argv) {
-    //printf("%s",argv[1]);
-    const int T = atoi (argv[1]);
-
-    pthread_t thr[T]; //-> cria um array de threads
+int main(int argc, char *argv[]){
+    const int T = atoi(argv[1]);
+    printf("Numero de threads a ser iniciada %i \n", T);
+    pthread_t thr[T];
     int status = 0;
+    int id[T];
 
-    printf("%i", T); 
+    for(int i = 0; i < T; i++){
+        id[i] = 10 + i;
+        status = pthread_create(&thr[i], NULL, thread_routine, &id[i]);
+    }
+
+    for(int i = 0; i < T; i++){
+        status = pthread_join(thr[i], NULL);
+    }
+
     return 0;
 }
