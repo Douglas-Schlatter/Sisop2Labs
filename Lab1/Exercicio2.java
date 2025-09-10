@@ -32,7 +32,7 @@ public class Exercicio2 {
 		{
 			SimpleThread temp = new SimpleThread(i);
 			threads.add(temp);
-			temp.run();
+			temp.start();
 			
 		}
 		//SimpleThread thr1 =  new SimpleThread("Joe");
