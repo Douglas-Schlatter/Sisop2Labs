@@ -6,7 +6,7 @@ void *test_routine (void *arg) {
     double *value;
     value = (double*)malloc(sizeof(double));
     *value = 100.0;
-    /*** fix me ***/
+    /*** fix me ***/ // Salve Salve meu chegado
 }
 
 int main( int argc, char **argv) {

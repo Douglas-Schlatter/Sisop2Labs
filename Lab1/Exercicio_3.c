@@ -1,8 +1,8 @@
 /** Codigos feitos pro Douglas e Jorge
  * 
  * Comando para compilar e executar
- * gcc -pthread exercicio_2.c -o ex1
- *./ex1
+ * gcc -pthread exercicio_3.c -o ex3
+ *./ex3
  * 
 */
 
@@ -50,7 +50,6 @@ int main(){
     for(int i = 0; i < T; i++){
         status = pthread_join(thr[i], NULL); // Join
     }
-
 
     // Soma sequencial correta
     long long SUM_seq = 0;
