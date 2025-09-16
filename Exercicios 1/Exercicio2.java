@@ -1,11 +1,9 @@
 //Codigos feitos pro Douglas e Jorge
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 class SimpleThread extends Thread {
-	
 	private Integer id;
 	
 	public SimpleThread(Integer id) {
@@ -13,7 +11,6 @@ class SimpleThread extends Thread {
 	}
 
 	public void run() {
-
 		Random r = new Random();	
 		try { Thread.sleep(r.nextInt(301));}
 		catch (InterruptedException ie) { ie.printStackTrace(); }
@@ -23,7 +20,6 @@ class SimpleThread extends Thread {
 }
 
 public class Exercicio2 {
-	
 	public static void main(String args[]) {
 		
 
@@ -32,8 +28,7 @@ public class Exercicio2 {
 		{
 			SimpleThread temp = new SimpleThread(i);
 			threads.add(temp);
-			temp.start();
-			
+			temp.start();	
 		}
 		
 		try {
