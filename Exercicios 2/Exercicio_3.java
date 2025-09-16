@@ -37,7 +37,7 @@ class PingPong {
 			}
 		}
 			
-    	System.out.println("Ping "+ id);
+    	System.out.println("Ping - id:"+ id+ "- Data: "+data);
 		data++;
 		turn = 1;
 		notifyAll();
@@ -56,7 +56,7 @@ class PingPong {
 			}
 		}
 			
-    	System.out.println("Pong "+id);
+   	System.out.println("Pong - id:"+ id+ "- Data: "+data);
     	data++;
 		turn = 0;
 		notifyAll();
@@ -75,7 +75,7 @@ class PingPong {
 
 class MyThread extends Thread {
 	
-	static final int n = 2; //constante final
+	static final int n = 4; //constante final
 	int id;
 	PingPong myMonitor;
 	
@@ -104,7 +104,7 @@ class MyThread extends Thread {
 
 
 
-public class Exercicio_2 {
+public class Exercicio_3 {
 	
 	public static void main(String args[]) {
 		
