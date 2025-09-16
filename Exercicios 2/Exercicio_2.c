@@ -41,11 +41,11 @@ int main(int argc, char *argv[]){
     int value = 0;
     int value2 = 0;
     if(argv[1] == NULL || argv[2] == NULL){
-        value = 5; // Evita erro de compilação
-        value2 = 4;
+        value = 3; // Evita erro de compilação
+        value2 = 1;
         printf("Uso: ./<nome>.exe <quantidade_carros> <quantidade_vagas> \n");
         printf("===================================================\n\n");
-        printf("inicializando com valores padrao Carros = 5, Vagas = 4 \n");
+        printf("inicializando com valores padrao Carros = 3, Vagas = 1 \n");
     } else {
         value = atoi(argv[1]);
         value2 = atoi(argv[2]);
