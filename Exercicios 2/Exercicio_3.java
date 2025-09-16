@@ -1,3 +1,6 @@
+/** Codigos feitos pro Douglas e Jorge
+*/
+
 import java.util.Random;
 
 
